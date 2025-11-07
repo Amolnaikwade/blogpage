@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function Footer() {
-  return (
-    <footer className="footer">
-      <div className="container">
-        <p>© {new Date().getFullYear()} MyLightBlog — Built with React + Vite</p>
-      </div>
-    </footer>
-  )
-}
+const Footer = () => (
+  <footer className="footer">
+    <p>© 2025 MyBlog. All rights reserved.</p>
+  </footer>
+);
+
+export default Footer;

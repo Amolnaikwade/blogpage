@@ -1,0 +1,11 @@
+{
+  "name": "Rupam",
+  "image": "/about/profile.jpg",
+  "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore?",
+  "socials": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "#",
+    "linkedin": "#"
+  }
+}

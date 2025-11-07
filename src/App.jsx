@@ -1,21 +1,37 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import BlogDetail from './pages/BlogDetail'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import BlogList from "./components/BlogList";
+import Sidebar from "./components/Sidebar";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import BlogDetails from "./components/BlogDetails";
+import "./index.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="app-root">
-      <Navbar />
-      <main className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog/:id" element={<BlogDetail />} />
-        </Routes>
-      </main>
+    <>
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Banner />
+              <main className="container">
+                <BlogList />
+                <Sidebar />
+              </main>
+              <Contact />
+            </>
+          }
+        />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+      </Routes>
       <Footer />
-    </div>
-  )
+    </>
+  );
 }
+
+export default App;

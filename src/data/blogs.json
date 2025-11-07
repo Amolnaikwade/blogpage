@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/blog-images/blog1.jpg",
+    "date": "May 1, 2021",
+    "title": "The Power of Yoga: Balance Body & Mind",
+    "text1": "Yoga is not just about flexibility — it’s a journey of balance, awareness, and inner peace.",
+    "text2": "Regular practice helps calm the mind, improve posture, and enhance overall well-being. Discover how mindful breathing and gentle movement can transform your daily life.",
+    "author": "Rupam"
+  },
+  {
+    "id": 2,
+    "image": "/blog-images/blog2.jpg",
+    "date": "May 3, 2021",
+    "title": "Morning Routine for Productivity",
+    "text1": "Start your day strong with these 5 simple steps to boost focus and energy naturally.",
+    "text2": "From mindful breathing to light stretching, learn how small habits can make your mornings calm, balanced, and productive.",
+    "author": "Editor"
+  }
+]
